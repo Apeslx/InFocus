@@ -17,9 +17,22 @@
 		
 		.imgcontainer
 		{
+			display: flex;
 			padding-top: 30px;
+			padding-bottom: 30px;
 			background-color: white;
 			text-align: center;
+		}
+
+		.photo
+		{
+			transition: scale 0.1s ease-in-out;;
+		}
+
+		.photo:hover
+		{
+			cursor: pointer;
+			scale: 101%;
 		}
 
 		ul
@@ -38,7 +51,16 @@
 	</nav>
 	<main>
 		<div class="imgcontainer">
-			<img style="width: 80%;" src="img/Lady.jpg" alt="">
+			<img class="photo" style="width: 40%; margin-left: 15%;" src="img/Geo.jpg" alt="">
+		</div>
+		<div class="imgcontainer">
+			<img class="photo" style="width: 40%; margin-left: 45%;" src="img/Fisher.jpg" alt="">
+		</div>
+		<div class="imgcontainer">
+			<img class="photo" style="width: 40%; margin-left: 15%;" src="img/Lady.jpg" alt="">
+		</div>
+		<div class="imgcontainer">
+			<img class="photo" style="width: 80%; margin-left: auto; margin-right: auto;" src="img/Solar.jpg" alt="">
 		</div>
 	</main>
 </body>
