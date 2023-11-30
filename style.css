@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Lora&display=swap');
+
+html
+{
+	background-color: rgb(87, 85, 29);
+}
+
+main, nav
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a
+{
+	text-decoration: none;
+	font-family: Grandiflora One;
+	color: white;
+}
+
+li
+{
+	display: inline;
+	margin-left: 30px;
+}
+
+b
+{
+	font-family: Lora;
+	font-size: 150px;
+}
+
+h1
+{
+	font-family: Grandiflora One;
+	font-weight: lighter;
+	color: white;
+	font-size: 60px;
+}
+
+h2
+{
+	font-family: Lora;
+	color: white;
+}
+
+.icon:hover
+{
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: filter 0.3s ease-in-out;
+}
+
+.infocus
+{
+	letter-spacing: 0px;
+	  transition: letter-spacing 0.6s ease-in-out; 
+
+}
+
+.infocus:hover
+{
+	cursor: pointer;
+	letter-spacing: 3px;
+}
